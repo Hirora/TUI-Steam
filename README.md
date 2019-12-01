@@ -12,7 +12,7 @@ Obviously, to run this, **you probably need *at least* lua 5.3.5**, but I have n
 
 Usage *should* be as simple as (inside the directory where main.lua is stored):
 `lua main.lua`
-which should explain the basic functionality fairly well ^
+which should explain the basic functionality fairly well!
 
 Then, if you know the ID, or have taken a peak inside the `library.json` file, which should hold all the IDs and Names of currently installed apps, then you can run:
 `lua main.lua -r -id <app ID>`
