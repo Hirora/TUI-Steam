@@ -28,7 +28,7 @@ function steamLibHandler.UpdateLibraryJson ()
 	local homeEnv = os.getenv("HOME")
 	local libDirectory = homeEnv .. "/.local/share/Steam/steamapps/common"
 
-	local libDirTable = scandir("/home/josh/.local/share/Steam/steamapps/common")
+	local libDirTable = scandir(libDirectory)
 
 	for i,v in pairs(libDirTable) do
 		if not(v == "." or v == "..") then

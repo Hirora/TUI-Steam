@@ -19,7 +19,9 @@ local function usage ()
   io.stderr:write("\n")
   io.stderr:write("Example:\n")
   io.stderr:write(
-      " Run CS:GO : srunner -r -id 730\n"
+      " Run CS:GO : srunner -r -id 730\n",
+      "\n",
+      " Yes, I do play CS:GO a lot\n"
     )
   io.stderr:write("\n")
   io.stderr:flush()
@@ -89,6 +91,8 @@ local function checkLibArg ( argument3 )
 
 	return IDValid
 end
+
+steamLibHandler.UpdateLibraryJson()
 
 isArg1Valid, isArg2Valid = checkArgs( ARG1 , ARG2 )
 
