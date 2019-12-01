@@ -1,4 +1,4 @@
-# ![Srunner](https://raw.githubusercontent.com/Hirora/srunner/master/srunnerlogo.png)
+# ![Srunner](https://raw.githubusercontent.com/Hirora/srunner/master/srunnerlogosmaller.png)
 
 ***Welcome to the Bleeding Edge of Srunner!  🎉***
 
