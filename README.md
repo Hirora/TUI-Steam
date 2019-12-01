@@ -18,6 +18,18 @@ Then, if you know the ID, or have taken a peak inside the `library.json` file, w
 `lua main.lua -r -id <app ID>`
 which should run the app relative to the ID provided, as provided by the example that is given when you run `lua main.lua` without any arguments!
 
+## Dependencies and Modules / Uses
+
+Srunner uses a few third-party modules, which may requires some dependencies; the only one I'm fully aware of is `stty` for plterm, as mentioned in their site, so be sure to check dependencies for each module respectively!
+
+This project runs, currently with the following third-party, externally made modules:
+
+- plterm - https://github.com/philanc/plterm
+  > MIT License https://github.com/philanc/plterm/blob/master/LICENSE
+  
+- json.lua - https://github.com/rxi/json.lua
+  > MIT License https://github.com/rxi/json.lua/blob/master/LICENSE
+
 ### Side Notes
 In the future, there's a possibility I might fork certain functionality of this program and create more projects out of it!
 This would most likely include the basic graphics library/engine/idk wtf to call this, that I use to draw basic ascii boxes out of provided characters
